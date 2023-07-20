@@ -1,0 +1,4 @@
+py_log.log
+.env
+.media/
+database/weather.db
