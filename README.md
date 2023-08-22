@@ -28,10 +28,10 @@
 
 Запуск бота: 
 
-1) Зупуск Ubuntu
-2) запуск redis командой: $ sudo service redis-server start
-3) ввод пароля пользователя
-4) запуск бота командой: python bot.py
+1) Зупустить Ubuntu
+2) Запустить redis командой: $ sudo service redis-server start
+3) Ввести пароль пользователя
+4) Запустить бота командой: python bot.py
 
 Установка redis в Ubuntu на Windows:
 
