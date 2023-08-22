@@ -13,17 +13,17 @@
 
 
 Ограничение:
-1000 запросов - максимальное беспланое количество запросов к сервису https://openweathermap.org/
-50 запросов - максимальное беспланое количество запросов к сервису https://www.openuv.io/ 
+- 1000 запросов - максимальное беспланое количество запросов к сервису https://openweathermap.org/
+- 50 запросов - максимальное беспланое количество запросов к сервису https://www.openuv.io/ 
 
 
 Настройка бота: 
 
-В файле .env.example нужно заменить api-ключи для корректной работы бота.
-OPEN_WEATHER_API_KEY - API Token с сайта https://openweathermap.org/
-OPENUV_API_KEY - API Token с сайта https://www.openuv.io/
-BOT_TOKEN - Token телеграм бота 
-TIMEZONEDB_API_KEY - Token с сайта https://timezonedb.com/ (необязательно)
-ADMIN_IDS - id администратора бота в телеграме 
+В файле .env.example нужно заменить api-ключи для корректной работы бота после чего переименновать файл в .env
+- OPEN_WEATHER_API_KEY - API Token с сайта https://openweathermap.org/
+- OPENUV_API_KEY - API Token с сайта https://www.openuv.io/
+- BOT_TOKEN - Token телеграм бота 
+- TIMEZONEDB_API_KEY - Token с сайта https://timezonedb.com/ (необязательно)
+- ADMIN_IDS - id администратора бота в телеграме 
 
 Бот запускается командой: python bot.py
